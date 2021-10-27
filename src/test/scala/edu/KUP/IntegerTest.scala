@@ -27,6 +27,12 @@ class IntegerTest extends AnyFlatSpec {
   "Predecessor and + " should "give predecessor of 1-0 " in {
     assert(one.-(zero).predecessor.isZero == true)
   }
+   "If we check zero isZero " should "give true" in {
+    assert(zero.isZero)
+  }
+  "Predecessor of two" should "give one " in {
+    assert(two.predecessor==one)
+  }
 
 
 }
